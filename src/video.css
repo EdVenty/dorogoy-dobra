@@ -1,0 +1,15 @@
+.video-container{
+    position: relative;
+}
+.video-text{
+    color: #fff;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+.video-text-title{
+    margin: 0;
+}
+.video-text-description{
+    margin: 0;
+}

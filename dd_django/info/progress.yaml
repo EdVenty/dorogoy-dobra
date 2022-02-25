@@ -1,0 +1,18 @@
+states:
+  ordered:
+    - NOT IMPLEMENTED
+    - MODEL DONE
+    - SERIALIZER DONE
+    - VIEW DONE
+    - ROUTED
+  not ordered:
+    - ERROR
+    - NEED HELP {nickname}
+
+badge:              ROUTED
+role:               ROUTED
+userBadge:          ROUTED
+userParticipation:  ROUTED
+user:               ROUTED
+event:              ROUTED
+video:              ROUTED

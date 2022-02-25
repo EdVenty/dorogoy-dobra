@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "dd-asia"
+  },
+  "targets": {
+    "dd-asia": {
+      "hosting": {
+        "app": [
+          "dorogoy-dobra"
+        ]
+      }
+    }
+  }
+}

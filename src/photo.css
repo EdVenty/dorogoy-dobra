@@ -1,0 +1,61 @@
+.photo{
+    
+}
+
+.photo-image{
+    object-fit: cover;
+    max-width: 200px;
+    max-height: 200px;
+}
+.photo-image--circle{
+    border-radius: 100em;
+}
+.photo-image--small{
+    max-width: 100px;
+    max-height: 100px;
+}
+.photo-image--medium{
+    max-width: 200px;
+    max-height: 200px;
+}
+.photo-image--large{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+@media screen and (max-width: 500px){
+    .photo-image--large{
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+@media screen and (max-width: 300px){
+    .photo-image--large{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
+.photo-root{
+    width: fit-content;
+    height: fit-content;
+}
+
+.photo-root--small{
+    width: fit-content;
+    height: fit-content;
+    /* max-width: 100px;
+    max-height: 100px; */
+}
+.photo-root--medium{
+    width: fit-content;
+    height: fit-content;
+    /* max-width: 200px;
+    max-height: 200px; */
+}
+.photo-root--large{
+    width: fit-content;
+    height: fit-content;
+    /* max-width: 400px;
+    max-height: 400px; */
+}

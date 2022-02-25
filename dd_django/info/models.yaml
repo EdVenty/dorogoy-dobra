@@ -1,0 +1,74 @@
+badge: &badge
+  icon: 
+    type: Image
+  title: 
+    type: Char
+    max_length: 20
+  description:
+    type: Char
+    max_length: 30
+    blank: true
+
+role: &role
+  title: 
+    type: Char
+    max_length: 30
+
+userBadge: &userBadge
+  origin: 
+    type: OneToMany
+  time_got: 
+    type: DateTime
+  event:
+    type: OneToMany
+    model: *event
+
+userParticipation:
+  event:
+    type: OneToMany
+    model: *event
+  role:
+    type: OneToMany
+    model: *role
+
+user:
+  .: *AbstractUser
+  bio: 
+    type: Text
+    max_length: 100
+  badges:
+    type: ManyToMany
+    model: *userBadge
+  experience:
+    type: Integer
+
+event:
+  title:
+    type: Char
+    max_length: 40
+  description:
+    type: Text
+  badges:
+    type: ManyToMany
+    model: *badge
+  experience:
+    type: Integer
+    blank: true
+  time_start:
+    type: DateTime
+  time_ent:
+    type: DateTime
+  preview:
+    type: ImageField
+    blank: true
+
+video:
+  title:
+    type: Char
+    max_length: 40
+    blank: true
+  description:
+    type: Text
+    blank: True
+  src:
+    type: Video

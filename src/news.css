@@ -1,0 +1,19 @@
+.news-container{
+    width: 300px;
+    height: 500px;
+}
+.news-title{
+    margin: 0;
+}
+.news-date{
+    margin: 0;
+}
+.news-description{
+    margin: 0;
+    text-justify: newspaper;
+}
+.news-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}

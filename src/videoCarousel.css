@@ -1,0 +1,3 @@
+.slide{
+    transition: margin 1s, height 1s, transform 1s;
+}

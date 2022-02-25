@@ -1,0 +1,35 @@
+.badge{
+    border-radius: 300px;
+    background: rgba(1, 72, 124, 0.5);
+    padding: 5px;
+}
+.badge--small{
+    width: 20px;
+    height: 20px;
+}
+.badge--middle{
+    width: 60px;
+    height: 60px;
+}
+.badge--large{
+    width: 120px;
+    height: 120px;
+}
+.badge-image{
+    object-fit: contain;
+}
+.badge-image--small{
+    width: 18px;
+    height: 18px;
+    padding: 1px;
+}
+.badge-image--middle{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.badge-image--large{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+}
